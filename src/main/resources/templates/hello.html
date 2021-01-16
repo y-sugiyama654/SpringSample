@@ -7,5 +7,10 @@
 </html>
 	<body>
 		<h1>Hello World</h1>
+	 	<form method="post" action="/hello">
+	 		<p>好きな文字を入力：</p>
+	 		<input type="text" name="text1" th:value="${text1_value}" />
+	 		<input type="submit" value="クリック" />
+		</form>
 	</body>
 </html>
